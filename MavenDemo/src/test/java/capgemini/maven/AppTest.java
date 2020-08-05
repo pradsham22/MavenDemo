@@ -24,7 +24,7 @@ public class AppTest
         System.out.println("Hello World");
     }
     @Test
-    public void HelloWorld()
+    public void Goodbye()
     {
         System.out.println("Goodbye");
     }

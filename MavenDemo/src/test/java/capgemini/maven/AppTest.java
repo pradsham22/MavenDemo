@@ -28,4 +28,9 @@ public class AppTest
     {
         System.out.println("Goodbye.");
     }
+    @Test
+    public void month()
+    {
+        System.out.println("August");
+    }
 }

@@ -2,6 +2,7 @@ package capgemini.maven;
 
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -33,4 +34,10 @@ public class AppTest
     {
         System.out.println("August");
     }
+    @Test
+    public void failTest()
+    {
+       Assert.assertTrue(false);
+    }
 }
+

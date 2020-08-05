@@ -23,4 +23,9 @@ public class AppTest
     {
         System.out.println("Hello World");
     }
+    @Test
+    public void HelloWorld()
+    {
+        System.out.println("Goodbye");
+    }
 }
